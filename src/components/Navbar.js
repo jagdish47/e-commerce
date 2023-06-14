@@ -3,7 +3,7 @@ import { BsCart3 } from "react-icons/bs";
 
 const Navbar = () => {
   return (
-    <div className="flex list-none ">
+    <div className="flex list-none border-2 w-[400px] justify-around mr-10 items-center">
       <NavLink to="/">
         <li>Home</li>
       </NavLink>
@@ -20,8 +20,8 @@ const Navbar = () => {
         <li>Contact</li>
       </NavLink>
 
-      <NavLink to="/cart">
-        <li>{<BsCart3 />}</li>
+      <NavLink to="/cart" className="flex">
+        <li>{<BsCart3 className="text-[25px] font-[800]" />}</li>
         <span>10</span>
       </NavLink>
     </div>
