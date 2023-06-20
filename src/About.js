@@ -1,7 +1,13 @@
+import HeroSection from "./components/HeroSection";
+
 const About = () => {
+  const data = {
+    name: "Ecommerce Shopping",
+  };
+
   return (
     <>
-      <h1>Tell me About you</h1>
+      <HeroSection myData={data} />
     </>
   );
 };
