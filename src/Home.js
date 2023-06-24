@@ -1,4 +1,6 @@
 import HeroSection from "./components/HeroSection";
+import Service from "./components/Services";
+import Trusted from "./components/Trusted";
 
 const Home = () => {
   const data = {
@@ -8,6 +10,8 @@ const Home = () => {
   return (
     <>
       <HeroSection myData={data} />
+      <Service />
+      <Trusted />
     </>
   );
 };
