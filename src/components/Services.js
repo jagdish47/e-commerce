@@ -6,7 +6,7 @@ import { GiReceiveMoney } from "react-icons/gi";
 const Services = () => {
   return (
     <>
-      <div className="border grid grid-cols-3 justify-center justify-items-center items-center w-full h-80 gap-0">
+      <div className="grid grid-cols-3 justify-center justify-items-center items-center w-full h-80 gap-0">
         <div className="bg-[#F1F5F9] rounded-lg w-72 h-64 ml-[650px] flex flex-col justify-center items-center">
           <div className="w-16 h-16 rounded-full bg-white flex justify-center items-center mb-5">
             <FaTruckMoving className="h-8 w-8 " />
