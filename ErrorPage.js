@@ -1,5 +1,3 @@
-import { NavLink } from "react-router-dom";
-
 const ErrorPage = () => {
   return (
     <>
@@ -15,12 +13,9 @@ const ErrorPage = () => {
           <p className="text-xl text-white italic">
             "Mistakes are the portals of discovery." - James Joyce
           </p>
-
-          <NavLink to="/">
-            <div className="text-white text-lg underline">
-              Go back to the homepage
-            </div>
-          </NavLink>
+          <a href="/" className="text-white text-lg underline">
+            Go back to the homepage
+          </a>
         </div>
       </div>
     </>
